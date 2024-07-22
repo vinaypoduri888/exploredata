@@ -44,8 +44,9 @@ Upload your dataset and explore a variety of insights and visualizations.
 # Main Page
 st.title("ExploreData: Your Interactive Data Analysis Tool")
 st.write("""
-Welcome to ExploreData, your one-stop solution for performing interactive exploratory data analysis (EDA) on any dataset in (.csv/.xlsx/.xls) format. Whether you're a data enthusiast, analyst, or researcher, this web application empowers you to gain valuable insights from your data effortlessly.
+Welcome to ExploreData, the ultimate tool for interactive exploratory data analysis (EDA). Effortlessly analyze datasets in (.csv/.xlsx/.xls) format, whether you're a data enthusiast, analyst, or researcher. Uncover valuable insights with ease and enhance your data-driven decisions.
 """)
+
 
 if status:
     imag = Image.open("mn.png")
